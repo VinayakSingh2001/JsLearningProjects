@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.stopwatch{
+    width:500px;
+    height: 300px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #111d13;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.stopwatch h1{
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: #ffffff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding-top: 70px;
+    text-shadow: 0 10px 20px rgba(248, 249, 250, 0.22);;
+    font-size: 2.5rem;
+
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.controls div{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    background: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #343a40;
+    box-shadow: 0 10px 20px rgba(248, 249, 250, 0.22);
+    cursor: pointer;
+}
+
+
+
+.controls .start{
+    cursor: pointer;
+    font-size: 25px;
+    background-color: white;
+}
+.controls .stop{
+    cursor: pointer;
+    font-size: 20px;
+    background-color: white;
+
+}
+.controls .reset{
+    cursor: pointer;
+    font-size: 20px;
+    background-color: white;
+}
+
+.controls .fas:hover{
+    color: #e63946;
+}
